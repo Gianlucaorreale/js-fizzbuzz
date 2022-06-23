@@ -7,4 +7,24 @@ Abbiamo visto qualcosa di particolare che possiamo usare?
 Consigli del giorno:
 1. Scriviamo sempre prima dei commenti in italiano per capire cosa vogliamo fare
 2. Proviamo ad immaginare le operazioni che vogliamo far svolgere al nostro programma così come lo faremmo "a mano"*/
-console.log('JS OK')
+    
+
+
+for(let i=1; i<=100; i++){
+    console.log(i);
+     const multipleThree = i % 3;
+     const multipleFive = i % 5;
+
+     if( i === multipleThree){
+        console.log('Fizz');
+    }
+    else if( i === multipleFive){
+        console.log('Buzz');
+    }
+
+    if( i === multipleFive && multipleThree){
+        console.log('FizzBuzz');
+    }
+
+
+}
